@@ -5,7 +5,9 @@
 input_number = input('任意の数字を入力してください： ')
 number = int(input_number)
 
-if number % 15 == 0:
+if number == 0:
+    print('数字は0で計算できませんでした')
+elif number % 15 == 0:
     print('FizzBuzz')
 elif number % 5 == 0:
     print('Fizz')
