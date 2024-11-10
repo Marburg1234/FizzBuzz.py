@@ -36,3 +36,20 @@ for item in items:
         print("所持金は0円になりました")
     else:
         print("所持金が足りず購入できませんでした")
+
+print("FizzBuzzゲーム 2")
+input_number = input("好きな数字を入力しましょう： ")
+number = int(input_number)
+
+if number == 0:
+    print("0なのでエラーです")
+elif number % 15 == 0:
+    print("FizzBuzz(5と3両方で割り切れます)")
+elif number % 5 == 0:
+    print("Fizz(5で割り切れます)")
+elif number % 3 == 0:
+    print("Buzz(3で割り切れます)")
+else:
+    print("5でも3でも割り切れません")    
+
+
